@@ -2,5 +2,5 @@ version: v2
 
 modules:
  - path: localai/v1
-   name: localai.io/backend/v1
+   name: buf.build/dave-gray101/localai
 
