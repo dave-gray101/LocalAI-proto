@@ -4,7 +4,7 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/go-skynet/LocalAI/pkg/grpc/proto/gen
+      value: github.com/go-skynet/LocalAI/pkg/grpc/proto
 plugins:
   - remote: buf.build/grpc/go:v1.5.1
     out: gen
