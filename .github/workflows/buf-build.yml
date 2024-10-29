@@ -14,5 +14,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: bufbuild/buf-action@v1
         with:
-          breaking: false
           token: ${{ secrets.BUF_TOKEN }}
