@@ -3,4 +3,9 @@ version: v2
 modules:
  - path: localai/v1
    name: buf.build/dave-gray101/localai-v1
+   lint:
+     ignore:
+      - localai/v1
 
+ - path: localai/v2
+   name: buf.build/dave-gray101/localai
