@@ -30,7 +30,7 @@ message MetricsRequest {}
 
 message MetricsResponse {
   int32 slot_id = 1;
-  string prompt_json_for_slot = 2;  // Stores the prompt as a JSON string.
+  string prompt_json_for_slot = 2; // Stores the prompt as a JSON string.
   float tokens_per_second = 3;
   int32 tokens_generated = 4;
   int32 prompt_tokens_processed = 5;
@@ -208,12 +208,12 @@ message ModelOptions {
 
   // vllm
   string Quantization = 40;
-  float  GPUMemoryUtilization = 50;
-  bool   TrustRemoteCode = 51;
-  bool   EnforceEager = 52;
-  int32  SwapSpace = 53;
-  int32  MaxModelLen = 54;
-  int32  TensorParallelSize = 55;
+  float GPUMemoryUtilization = 50;
+  bool TrustRemoteCode = 51;
+  bool EnforceEager = 52;
+  int32 SwapSpace = 53;
+  int32 MaxModelLen = 54;
+  int32 TensorParallelSize = 55;
   string LoadFormat = 58;
 
   string MMProj = 41;
