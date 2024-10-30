@@ -1,6 +1,6 @@
 version: v2
 
 modules:
- - path: localai
+ - path: localai/v1
    name: buf.build/dave-gray101/localai-v1
 
