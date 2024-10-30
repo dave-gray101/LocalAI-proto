@@ -7,5 +7,5 @@ modules:
      ignore:
       - localai/v1
 
- - path: localai/v2
-   name: buf.build/dave-gray101/localai
+# - path: localai/v2
+#   name: buf.build/dave-gray101/localai
